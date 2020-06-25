@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>responsive</title>
+    <!-- this paragraph will not show while printing -->
+
+    <style>
+        @media (min-width: 500px) {
+           h1::before {
+                content: "Welcome to My Web Page1 "
+           }
+            
+        }
+
+         @media (max-width: 499px) {
+           h1::before {
+                content: "Welcome"
+           }
+        }
+    </style>
+
+<body>
+    <h1></h1>
+    <!-- <p>this is another paragraph.</p> -->
+    <!-- <p class="screen-only">this is a paragraph which won't appear in your print.</p> -->
+
+</body>
+
+</html>

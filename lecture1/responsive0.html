@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>responsive</title>
+    this paragraph will not show while printing
+
+    <style>
+        @media (min-width: 500px){
+            body{
+                background-color: red;
+            }
+        }
+           @media (max-width: 499px){
+            body{
+                background-color: blue;
+            }
+        }
+    </style>
+
+<body>
+    <p>this is a paragraph.</p>
+    <p>this is another paragraph.</p>
+    <p class="screen-only">this is a paragraph which won't appear in your print.</p>
+
+</body>
+
+</html>

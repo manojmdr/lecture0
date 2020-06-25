@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Print</title>
+ this paragraph will not show while printing
+
+  <style>
+      @media print {
+          .screen-only {
+              display: none;
+          }
+      }
+  </style>
+<body>
+    <p>this is a paragraph.</p>
+    <p>this is another paragraph.</p>
+    <p class="screen-only">this is a paragraph which won't appear in your print.</p>
+
+</body>
+</html>
